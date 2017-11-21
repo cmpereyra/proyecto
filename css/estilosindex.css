@@ -1,0 +1,18 @@
+body{
+	background:url(../imagenes/economia.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+	background-position: center;
+	background-attachment: scroll;
+}
+.utec{
+	background-color:rgba( 240, 62, 15,0.6);
+}
+.utu{
+	background-color:rgba(210, 180, 222,0.7);
+}
+.blanco{
+	color:#f1f1f2;
+	margin-left: 15px;
+}

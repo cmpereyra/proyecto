@@ -1,0 +1,176 @@
+body{
+		background:url(../imagenes/manzana.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+	background-position: center;
+	background-attachment: scroll;
+}
+}
+header {
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+}
+ 
+nav {
+	background:#528fd5;
+	margin-top:20px;
+	position: relative;
+	z-index: 1;
+}
+ 
+nav ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+}
+ 
+nav > ul > li {
+	float:left;
+}
+ 
+nav ul li a {
+	text-decoration:none;
+	color:#fff;
+	display:block;
+	padding:10px 20px;
+}
+ 
+nav ul li a:hover {
+	background:#3669a3;
+}
+ 
+nav > ul > li:hover div {
+	display:table;
+}
+ 
+
+nav ul li div {
+	width:1000px;
+	position: absolute;
+	left:0;
+	background:#ccc;
+	box-sizing:border-box;
+	display:none;
+}
+ 
+nav ul li div ul{
+	width:20%;
+	display:table-cell;
+	border-right:1px solid rgba(255,255,255,.5);
+	box-sizing:border-box;
+}
+ 
+nav ul li div ul:last-child {
+	border:none;
+
+}
+ 
+nav ul li div ul .titulo {
+	background:#000;
+	color:#fff;
+}
+ 
+nav ul li div ul .titulo a {
+	color:#fff;
+	padding:10px 20px;
+}
+ 
+.titulo.azul {background:#3498db;}
+.titulo.verde{background:#27ae60;}
+.titulo.naranja {background:#e67e22;}
+.titulo.rojo {background:#c0392b; color:#000;}
+ 
+nav ul li div ul .titulo a:hover {
+	background:none;
+}
+ 
+nav ul li div ul li a {
+	color:#000;
+}
+ 
+nav ul li div ul li a:hover {
+	color:#fff;
+}
+ 
+.contenedor{
+position:relative;
+background-color:rgba(249, 235, 234,0.7);
+height:160;
+width:610px;
+border-radius:10px;
+padding:5px;
+margin:15px;
+}
+.contenedor:hover{
+box-shadow: 2px 2px 2px #f1f1f2;
+}
+div{
+	float: left;
+}
+
+
+.orden{
+	margin-left: 50px;
+}
+.abajo{
+	margin-top: 10px;
+}
+.megacontenedor{
+	position:relative;
+background-color:rgb(249, 235, 234);
+height:auto;
+width:99%;
+border-radius:10px;
+padding:5px;
+
+}
+.contenedor img{
+	border-radius: 10px;
+}
+.titulos{
+	position: relative;
+	bottom:	150px;
+	left: 205px;
+	color:#f1f1f2;
+}
+.derecha{
+ position: relative;
+	bottom:	100px;
+	left: 80px;	
+}
+
+.estrellas {
+	position: relative;
+	bottom:	160px;
+	left: 210px;
+	font-size:0;
+	
+	}
+.estrellas a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	font-size: 4rem;
+	
+	color: #888;
+}
+.estrellas:hover a {
+	color: rgb(39, 130, 228);
+	text-decoration: none;
+}
+.estrellas > a:hover ~ a {
+	color: #888;
+}
+
+.utec{
+	background-color:rgba( 240, 62, 15,0.6);
+}
+.noseve{
+display:none;
+}
+
+
+ 
